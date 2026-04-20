@@ -1,0 +1,12 @@
+{
+  "applinks": {
+    "details": [
+      {
+        "appIDs": ["6TA4BVYK2P.com.buckblock.app"],
+        "components": [
+          { "/": "/s/*" }
+        ]
+      }
+    ]
+  }
+}
