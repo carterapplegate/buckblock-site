@@ -2,9 +2,9 @@
   "applinks": {
     "details": [
       {
-        "appIDs": ["6TA4BVYK2P.com.buckblock.app"],
+        "appIDs": ["6TA4BVYK2P.app.buckblock.ios"],
         "components": [
-          { "/": "/s/*" }
+          { "/": "/s/*", "comment": "All NFC station URLs — e.g. /s/station-001" }
         ]
       }
     ]
