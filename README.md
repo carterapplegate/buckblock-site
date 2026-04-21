@@ -1,6 +1,6 @@
 # buckblock-site
 
-Public site for **Bison LLC** at `buckblock.app` — company landing page plus the Apple App Site Association (AASA) file that makes BuckBlock's NFC Universal Links launch the iOS app.
+Public site for **Bison Solutions LLC** at `buckblock.app` — company landing page plus the Apple App Site Association (AASA) file that makes BuckBlock's NFC Universal Links launch the iOS app.
 
 ## Structure
 
