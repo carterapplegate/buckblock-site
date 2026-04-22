@@ -574,6 +574,26 @@ section {
     line-height: 1.55;
 }
 
+.founder-linkedin {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    margin-top: 12px;
+    color: var(--indigo);
+    font-size: 13px;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.founder-linkedin:hover {
+    color: var(--violet);
+}
+
+.founder-linkedin svg {
+    width: 14px;
+    height: 14px;
+}
+
 /* Company card */
 .company {
     max-width: 780px;
