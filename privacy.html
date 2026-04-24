@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#4F46E5" />
+    <meta name="description" content="BuckBlock Privacy Policy — how Bison Solutions LLC handles your data." />
+    <link rel="icon" type="image/png" href="assets/applogo.png" />
+    <link rel="apple-touch-icon" href="assets/applogo.png" />
+    <title>Privacy Policy | BuckBlock</title>
+    <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+    <nav class="nav">
+        <div class="container nav-inner">
+            <a href="/" class="brand">
+                <img src="assets/applogo.png" alt="BuckBlock" />
+                BuckBlock
+                <span class="brand-sub">by Bison Solutions LLC</span>
+            </a>
+            <div class="nav-links">
+                <a href="/#product">Product</a>
+                <a href="/#how">How it works</a>
+                <a href="/#company">Company</a>
+                <a href="/#contact" class="nav-cta">Contact</a>
+            </div>
+        </div>
+    </nav>
+
+    <main class="legal-page">
+        <div class="container legal-container">
+            <span class="section-kicker">Legal</span>
+            <h1>Privacy Policy</h1>
+            <p class="legal-meta">Last updated: April 24, 2026</p>
+
+            <p>
+                BuckBlock is built by <strong>Bison Solutions LLC</strong> ("we," "us," or "Bison Solutions"),
+                a Pennsylvania limited liability company based in Lewisburg, PA. We care about your privacy.
+                This policy explains, in plain language, what data BuckBlock collects, what it doesn't, and
+                where it lives.
+            </p>
+
+            <h2>The short version</h2>
+            <ul>
+                <li>We don't run analytics, advertising, or tracking of any kind.</li>
+                <li>We don't have servers that store your personal data. Your app selections, session history, and tag registrations live only on your iPhone.</li>
+                <li>We never see which specific apps you've chosen to block — Apple's Screen Time APIs make that information cryptographically opaque to us by design.</li>
+            </ul>
+
+            <h2>What BuckBlock stores on your device</h2>
+            <ul>
+                <li><strong>Your name</strong>, if you enter one during setup. Used only to personalize the app's UI.</li>
+                <li><strong>Your blocking selection</strong>, stored by iOS as an opaque <em>FamilyActivitySelection</em> token. We cannot see which apps or categories you've selected — the token is a privacy-preserving handle that only Apple's Screen Time framework can read.</li>
+                <li><strong>Session history</strong>: start time, end time, duration, and which blocking profile was used. Stored locally so you can review your focus time.</li>
+                <li><strong>NFC tag registrations</strong>: a hashed identifier for each tag you've paired, so the app can recognize "same tag" without storing the raw tag data.</li>
+            </ul>
+
+            <h2>What we don't collect</h2>
+            <ul>
+                <li>No analytics events, crash telemetry, or usage metrics are sent to our servers or any third party.</li>
+                <li>No advertising identifiers (IDFA), device fingerprints, or location data.</li>
+                <li>No contact list, photos, microphone, or camera access.</li>
+                <li>No data about which specific apps you block or use while blocked — the Screen Time framework does not expose that to us.</li>
+            </ul>
+
+            <h2>When you email us</h2>
+            <p>
+                If you contact us at <a href="mailto:contact@buckblock.app">contact@buckblock.app</a>, we receive your
+                email address and the content of your message. We use that solely to respond to you. We use
+                Cloudflare Email Routing to forward those messages to our inbox; Cloudflare does not retain
+                the content of the messages it forwards.
+            </p>
+
+            <h2>Service providers</h2>
+            <ul>
+                <li><strong>Apple</strong> — the App Store distributes the app and Apple's Screen Time framework is what actually enforces the blocks. Apple's privacy practices are governed by <a href="https://www.apple.com/legal/privacy/" target="_blank" rel="noopener">Apple's Privacy Policy</a>.</li>
+                <li><strong>Cloudflare</strong> — hosts buckblock.app and forwards mail to our inbox. Cloudflare never receives data from inside the app.</li>
+            </ul>
+
+            <h2>Children</h2>
+            <p>
+                BuckBlock is not directed at children under 13, and we do not knowingly collect personal
+                information from anyone under 13. If you believe a child under 13 has provided us with
+                personal information, contact us and we will delete it.
+            </p>
+
+            <h2>Your choices</h2>
+            <ul>
+                <li><strong>Delete everything.</strong> Signing out of BuckBlock resets your name and blocking selection. Deleting the app removes all local data.</li>
+                <li><strong>Revoke Screen Time permission.</strong> You can revoke BuckBlock's Screen Time access at any time in iOS Settings → Screen Time. This will end any active blocking session immediately.</li>
+            </ul>
+
+            <h2>Changes to this policy</h2>
+            <p>
+                If we make material changes, we'll update the "Last updated" date at the top and, where
+                appropriate, notify you inside the app. Continued use of BuckBlock after an update means you
+                accept the revised policy.
+            </p>
+
+            <h2>Contact</h2>
+            <p>
+                Questions, concerns, or privacy requests: <a href="mailto:contact@buckblock.app">contact@buckblock.app</a>.
+            </p>
+            <p class="legal-address">
+                Bison Solutions LLC<br />
+                Lewisburg, Pennsylvania
+            </p>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container footer-inner">
+            <div class="footer-brand">
+                <img src="assets/applogo.png" alt="BuckBlock" />
+                BuckBlock · A product of Bison Solutions LLC
+            </div>
+            <div class="footer-links">
+                <a href="/privacy">Privacy</a>
+                <a href="/terms">Terms</a>
+                <a href="mailto:contact@buckblock.app">Contact</a>
+            </div>
+            <div class="footer-copy">
+                &copy; 2026 Bison Solutions LLC. All rights reserved.
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
